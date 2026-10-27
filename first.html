@@ -2,37 +2,85 @@
 <html>
 <head>
     <title>My Profile</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        .card {
+            background-color: white;
+            width: 400px;
+            margin: 50px auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px gray;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        h2 {
+            color: purple;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: lavender;
+            margin: 8px;
+            padding: 8px;
+            border-radius: 8px;
+        }
+
+        button {
+            background-color: darkblue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: purple;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>My Student Profile</h1>
+    <div class="card">
 
-    <h2>About Me</h2>
-    <p>Hello! My name is Nandhini. I am a Computer Science student.</p>
+        <h1>My Student Profile</h1>
 
-    <h2>My Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SQL</li>
-    </ul>
+        <h2>About Me</h2>
+        <p>Hello! I am a Computer Science student interested in programming and technology.</p>
 
-    <h2>My Education</h2>
-    <table border="1">
-        <tr>
-            <th>Course</th>
-            <th>Year</th>
-        </tr>
-        <tr>
-            <td>B.Tech CSE</td>
-            <td>2028</td>
-        </tr>
-    </table>
+        <h2>My Skills</h2>
 
-    <h2>Contact</h2>
-    <p>Email: example@gmail.com</p>
+        <ul>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+            <li>SQL</li>
+            <li>Problem Solving</li>
+        </ul>
+
+        <h2>Education</h2>
+        <p>B.Tech - Computer Science Engineering</p>
+
+        <h2>Contact</h2>
+        <p>example@gmail.com</p>
+
+        <button>Contact Me</button>
+
+    </div>
 
 </body>
 </html>
